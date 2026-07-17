@@ -13,10 +13,10 @@
     "scripts": {
         "test":"node convert.js test/test.psd"
     },
-    "homepage": "http://www.fairygui.com",
+    "homepage": "https://github.com/claudeskydream-hash/psd2fgui",
     "repository": {
         "type": "git",
-        "url": "git://github.com/fairygui/psd2fgui.git"
+        "url": "git+https://github.com/claudeskydream-hash/psd2fgui.git"
     },
     "license": "MIT",
     "dependencies": {

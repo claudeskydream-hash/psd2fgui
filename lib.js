@@ -387,6 +387,11 @@ function parseNode(aNode, rootNode, displayList, onElementCallback) {
         if (onElementCallback)
             onElementCallback(child, aNode);
 
+        //Add a relation to center each element relative to its parent container.
+        var rel = child.ele('relation');
+        rel.att('target', '');
+        rel.att('sidePair', 'center-center,middle-middle');
+
         displayList.importDocument(child);
     }
 
